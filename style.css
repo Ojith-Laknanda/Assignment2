@@ -1,0 +1,261 @@
+.same{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+.labelInLogin,.labelInAdd,.labelInRemove,.labelInChange{
+
+    margin-left: 15px;
+}
+.btn{
+    border: 5px solid black;
+    padding: 2px;
+    margin-top: 30px;
+    margin-left: 120px;
+    width: 150px;
+    height: 50px;
+    background-color: bisque;
+    border-radius: 4px;
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+.btn:hover {
+    /* Add a different transform effect on hover */
+    transform: rotate(-10deg);
+}
+.cat {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+}
+.buttons_right{
+    position: absolute;
+    bottom: -100px;
+    left: 800px;
+    float: right;
+    width: 600px;
+    border: 3px solid #73AD21;
+    /*padding: 10px;*/
+}
+#home{
+    background-color: #3a52ff;
+
+}
+#home_img{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    height: 800px;
+    width: 1000px;
+    border-radius: 50%;
+}
+#home_img_cover{
+    position: relative;
+}
+#img_heading{
+    height: 100px;
+
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 5px;
+    background-color: #3a52ff;
+    position: absolute;
+    bottom: 300px;
+    left: 600px;
+    font-size: 55px;
+
+}
+.round{
+    padding: 2px;
+    background-color: #ffa900;
+
+    margin-left: 40px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.icon_size{
+    height: 60px;
+    width: 60px;
+
+}
+
+/*-----------------------*/
+nav {
+    background-color: aliceblue;
+    overflow: hidden;
+    display: flex; /* use flexbox to position the logo and links horizontally */
+    justify-content: space-between; /* set the logo and links to opposite ends of the navigation bar */
+    align-items: center; /* vertically center the logo and links */
+}
+
+.logo img {
+    height: 100px; /* set the height of the logo */
+    margin: 10px; /* add margin to create spacing */
+    float: left;
+}
+
+#navi{
+    margin-right: 500px;
+}
+ul {
+    list-style: none;
+}
+li{
+    height: 50px;
+    width: 100px;
+}
+nav li {
+    display: inline-block; /* set the list items to display inline-block to align them horizontally */
+    padding: 20px;
+}
+
+nav li a {
+    background-color: #3a52ff;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+.login_body,#list_body{
+    background: linear-gradient( white, #3a52ff);
+    height: 650px;
+
+}
+.signup_body{
+    background: linear-gradient( white, #3a52ff);
+    height: 750px;
+
+}
+#login_div,#remove_div,#change_div{
+    background-image: linear-gradient(to bottom, ghostwhite, blue);
+    margin-left: 550px;
+    margin-top: 120px;
+    position: relative;
+    width: 400px;
+    height: 440px;
+    /*background: transparent;*/
+    border: 2px solid brown;
+    border-radius: 5%;
+    backdrop-filter: blur(20px);
+    justify-content: center;
+    align-items: center;
+}
+#signup_div{
+    background-image: linear-gradient(to bottom, ghostwhite, blue);
+    margin-left: 550px;
+    margin-top: 50px;
+    position: relative;
+    width: 400px;
+    height: 740px;
+    /*background: transparent;*/
+    border: 2px solid brown;
+    border-radius: 5%;
+    backdrop-filter: blur(20px);
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    font-size: 50px;
+}
+
+/*add student list*/
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+    left: 0;
+    background-color: bisque;
+}
+
+/* Control the right side */
+.right {
+    right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#spiltRight{
+    background-image: linear-gradient(to bottom, ghostwhite, blue);
+    margin-left: 950px;
+    margin-top: 100px;
+    position: relative;
+    width: 400px;
+    height: 750px;
+    border: 2px solid brown;
+    border-radius: 5%;
+    backdrop-filter: blur(20px);
+    justify-content: center;
+    align-items: center;
+}
+#navi2{
+    margin-right: 400px;
+
+}
+.li_list{
+    height: 20px;
+    width: 200px;
+}
+#list_body{
+    height: 800px;
+}
+td,th{
+    text-align: center;
+
+
+}
+tr:hover {
+    background-color: coral;
+}
+th {
+    background-color: blue;
+    color: white;
+}
+table{
+    background-color: #6acbff;
+}
+.f_st_col{
+    background-color: white;
+}
+/*///////list*/
+#list_div{
+    background-image: linear-gradient(to bottom, ghostwhite, blue);
+    margin-left: 150px;
+    margin-top: 100px;
+    position: relative;
+    width: 1200px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+#img{
+    height: 700px;
+    width: 800px;
+}
+#remove_div{
+    height: 500px;
+}
+#change_div{
+    height: 550px;
+}

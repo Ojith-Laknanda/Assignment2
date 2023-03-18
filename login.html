@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOG IN</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="login_body">
+
+<div id="login_div" >
+    <h1 class="h1">LOGIN</h1>
+    <div class="form_box">
+        <form action="logIn.php" method="post">
+        <label class="labelInLogin" for="username">Enter your user name</label><br>
+        <input type="text" class="same" id="username" name="username" value="" placeholder="Enter your user name"><br><br>
+        <label class="labelInLogin" for="pw">Enter your password</label><br>
+        <input type="password" class="same" id="pw" name="pw" value="" placeholder="Enter your password"><br>
+
+        <input type="submit" id="Log In" name="logIn" class="btn" value="Log In"><br>
+        </form>
+        <br>
+        <p style=" color: white;text-align: center">don`t have an account? <a href="signup.html" style="color: white">Sign Up</a></p>
+
+    </div>
+
+</div>
+
+</body>
+</html>

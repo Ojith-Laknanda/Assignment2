@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ADD Student</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="split left">
+    <div >
+        <img id="img" src="imgs\index.jpeg" alt="">
+    </div>
+</div>
+<div class="split right" id="spiltRight">
+    <div class="centered">
+        <h1>ADD Student</h1><br>
+        <form action="student_details.php" method="post">
+
+            <label class="labelInAdd"for="fname">First name</label><br>
+            <input class="same"  type="text" id="fname" name="fname" placeholder="Enter your First name" ><br>
+
+            <label class="labelInAdd"for="lname">Last name</label><br>
+            <input class="same"type="text" id="lname" name="lname" placeholder="Enter your Last name"><br>
+
+            <label class="labelInAdd"for="address">Address</label><br>
+            <input class="same"type="text" id="address" name="address" placeholder="Address"><br>
+
+            <label class="labelInAdd"for="stu_id">Student Id Number</label><br>
+            <input class="same" type="text" id="stu_id" name="stu_id" placeholder="Student Id Number"><br>
+
+            <label class="labelInAdd"for="bd">Birth Date</label><br>
+            <input class="same" type="date" id="bd" name="bd" ><br>
+
+            <label class="labelInAdd"for="Degree">Degree</label><br>
+            <input class="same" type="text" id="Degree" name="Degree" placeholder="Degree"><br>
+
+
+            <table style="background-color: white" >
+                <tr >
+                    <td>
+                        <label class="labelInAdd"for="Gender">Gender</label><br>
+                    </td>
+                    <td>
+                        <input  type="radio" id="Gender" name="Gender" value="Male">Male
+                        <input  type="radio"  name="Gender" value="Female">Female
+                    </td>
+                </tr>
+            </table>
+            <br><br>
+           <input type="submit" class="btn" name="save"  value="Add student"  >
+            
+
+        </form>
+
+    </div>
+
+</div>
+</body>
+</html>

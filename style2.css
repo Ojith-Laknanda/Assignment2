@@ -1,0 +1,40 @@
+ul {
+    list-style: none;
+}
+li{
+    height: 50px;
+    width: 100px;
+}
+nav li {
+    display: inline-block; /* set the list items to display inline-block to align them horizontally */
+    padding: 20px;
+}
+
+nav li a {
+    background-color: #3a52ff;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+#navi{
+    margin-right: 500px;
+}
+nav {
+    background-color: aliceblue;
+    overflow: hidden;
+    display: flex; /* use flexbox to position the logo and links horizontally */
+    justify-content: space-between; /* set the logo and links to opposite ends of the navigation bar */
+    align-items: center; /* vertically center the logo and links */
+}
+
+.logo img {
+    height: 100px; /* set the height of the logo */
+    margin: 10px; /* add margin to create spacing */
+    float: left;
+}
