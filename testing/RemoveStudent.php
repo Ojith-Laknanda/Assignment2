@@ -25,7 +25,7 @@ class RemoveStudent extends TestCase
 
         $this->assertTrue($result);
     }
-    public function testFailedLogin()
+    public function testFailedDelete()
     {
 
         $sql = "DELETE FROM test_student_data WHERE first_name= 'yoyo123456' and last_name= 'k1456' and stu_id= '1111112222333323'";
